@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Accounting</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="lib/bootstrap/bootstrap.5.3.3.css">
+  <script src="lib/bootstrap/bootstrap.5.3.3.js"></script>
+  <script src="lib/bootstrap/bootstrap.blunde.5.3.3.js"></script>
+  
+  </head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="navbar-brand">"Año del Bicentenario, de la consolidación de nuestra Independencia, y de la conmemoración de las heroicas batallas de Junín y Ayacucho"</a>
+      <ul class="navbar-nav">
+        <li><a href="#bolsalaboral" class="nav-link">Bolsa Laboral</a></li>
+        <li><a href="#comunicados" class="nav-link">Comunicados</a></li>
+        <li><a href="#noticias" class="nav-link">Noticias</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Nosotros
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="presentacio.htm">Presentacion</a></li>
+                            <li><a class="dropdown-item" href="mision.html">Mision</a></li>
+                            <li><a class="dropdown-item" href="vision.html">Vision</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Programas de estudio
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="computacion.html">Computacion e Informatica</a></li>
+                            <li><a class="dropdown-item" href="contabilidad.html">Contabilidad</a></li>
+                            <li><a class="dropdown-item" href="enfermeria.html">Enfermeria tecica</a></li>
+                            <li><a class="dropdown-item" href="turismo.html">Guia oficial de turismo</a></li>
+                            <li><a class="dropdown-item" href="mecanica.html">Mecanica Automotriz</a></li>
+                            <li><a class="dropdown-item" href="farmacia.html">Farmacia tecnica</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Admision y Matriculas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="admision.html">Admision</a></li>
+                            <li><a class="dropdown-item" href="matriculas.html">Matriculas</a></li>
+                            <li><a class="dropdown-item" href="Becas.html">Becas</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contactos</a>
+                    </li>
+
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+</header>
+
+  <!-- Services Section -->
+  <main>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .column {
+            flex: 1;
+        }
+
+        .noticias-eventos {
+            background-color: #ffffff;
+            border: 1px solid #dcdcdc;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .noticias-eventos h3 {
+            background-color: #28a745;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .noticia,
+        .evento {
+            margin-bottom: 20px;
+        }
+
+        .noticia h4,
+        .evento h4 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        .noticia p,
+        .evento p {
+            margin: 0;
+        }
+
+        .publicidad {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #e7f1ff;
+        }
+
+        .publicidad img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .comunicados {
+            background-color: #ffffff;
+            border: 1px solid #dcdcdc;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .comunicados h3 {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .comunicado {
+            margin-bottom: 20px;
+        }
+
+        .comunicado h4 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+
+        .comunicado p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <!-- Noticias y Eventos -->
+            <div class="column noticias-eventos">
+                <h3>Noticias y Eventos</h3>
+                <div class="noticia">
+                    <h4>Semana Forestal Nacional en Áncash</h4>
+                    <p>El curso de Destreza Forestal, organizado por SERFOR Perú en el IESTP...</p>
+                    <p><small>Publicado: 3 de diciembre de 2024</small></p>
+                </div>
+                <div class="evento">
+                    <h4>Relaciones Humanas y Ética Profesional</h4>
+                    <p>Un encuentro para reforzar valores y conexión docente.</p>
+                    <p><small>Publicado: 21 de noviembre de 2024</small></p>
+                </div>
+                <div class="noticia">
+                    <h4>Innovación y Calidad Educativa</h4>
+                    <p>Éxito del XVI Congreso Regional y Congreso Internacional 2024.</p>
+                    <p><small>Publicado: 28 de octubre de 2024</small></p>
+                </div>
+            </div>
+
+            <!-- Publicidad -->
+            <div class="column publicidad">
+                <h3>Publicidad</h3>
+                <img src="images/publicidad.png" alt="Publicidad">
+            </div>
+
+            <!-- Comunicados -->
+            <div class="column comunicados">
+                <h3>Comunicados</h3>
+                <div class="comunicado">
+                    <h4>Lista de Docentes Renovados</h4>
+                    <p>Publicado el: 22 de noviembre de 2024 - 4:50 p.m.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+  <!-- Intranet Section -->
+  <main>
+    <style>
+        main {
+            background-color: #f8f9fa;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            background-color: #ffffff;
+            padding: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            max-height: 70px;
+            object-fit: contain;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0;
+            text-align: left;
+            flex-grow: 1;
+            padding-left: 10px;
+        }
+
+        .card .arrow {
+            font-size: 1.5rem;
+            color: #003DA5;
+        }
+    </style>
+    <div class="container py-5">
+        <div class="section-title">
+            <h2>Intranet</h2>
+            <hr style="width: 50px; border: 2px solid #003DA5; margin: 0 auto;">
+        </div>
+        <!-- Tarjeta 1 -->
+        <div class="row g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="images/intranet-estudiantes.png" alt="Estudiantes">
+                    <p class="card-title">intranet <b>Estudiantes</b></p>
+                    <span class="arrow">➤</span>
+                </div>
+            </div>
+        </div>
+        <!-- Tarjeta 2 -->
+        <div class="row g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="images/intranet-docentes.png" alt="Docentes">
+                    <p class="card-title">intranet <b>Docentes</b></p>
+                    <span class="arrow">➤</span>
+                </div>
+            </div>
+        </div>
+        <!-- Tarjeta 3 -->
+        <div class="row g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="images/intranet-administrativos.png" alt="Administrativos">
+                    <p class="card-title">intranet <b>Administrativos</b></p>
+                    <span class="arrow">➤</span>
+                </div>
+            </div>
+        </div>
+        <!-- Tarjeta 4 -->
+        <div class="row g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="images/eva.png" alt="EVA">
+                    <p class="card-title">EVA <b>Entorno Virtual de Aprendizaje</b></p>
+                    <span class="arrow">➤</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid custom-section">
+        <div class="row align-items-center">
+            <!-- Logo y nombre de la institución -->
+            <div class="col-md-4 text-center">
+                <img src="images/logo-iegb.webp" alt="Logo" class="img-fluid mb-2">                
+            </div>
+            
+            <!-- Libro de reclamaciones -->
+            <div class="col-md-4 text-center">
+                <h5>Libro de Reclamaciones</h5>
+                <p>Para cualquier queja o sugerencia, por favor visita nuestro <a href="#" class="custom-link">Libro de Reclamaciones</a>.</p>
+                <button class="btn custom-button">&#128214; Registrar reclamación</button>
+            </div>
+            
+            <!-- Información de contacto -->
+            <div class="col-md-4 text-center">
+                <h5>Contacto</h5>
+                <p><i class="bi bi-geo-alt-fill"></i> Av. Tecnológico N° 182 - Barrio Shancayan - Huaraz - Ancash</p>
+                <p><i class="bi bi-whatsapp"></i> +51 920 253 878</p>
+                <p><i class="bi bi-telephone-fill"></i> 043 422572</p>
+                <p><i class="bi bi-envelope-fill"></i> informes@iegb.edu.pe</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

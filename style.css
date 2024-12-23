@@ -1,0 +1,164 @@
+:root {
+  --primary-blue: #4267B2;
+  --dark-blue: #1e2a3a;
+  --text-light: #ffffff;
+  --secondary-yellow: #ffd700;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2e3844;
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  color: var(--text-light);
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-brand span {
+  color: var(--secondary-yellow);
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-nav .nav-link {
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--secondary-yellow);
+}
+
+/* Hero Section */
+.hero {
+  background-color: var(--primary-blue);
+  color: var(--text-light);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--secondary-yellow);
+  color: var(--dark-blue);
+}
+
+.btn-primary:hover {
+  background-color: #d6b300;
+}
+
+/* Services Section */
+.services {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.services h2 {
+  margin-bottom: 2rem;
+}
+
+.service-item {
+  margin: 1rem 0;
+}
+
+/* Mission Section */
+.mission {
+  padding: 4rem 0;
+  background-color: var(--dark-blue);
+  color: var(--text-light);
+  text-align: center;
+}
+
+.mission ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.mission ul li {
+  margin-bottom: 0.5rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.stats-item {
+  text-align: center;
+}
+
+.stats-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--secondary-yellow);
+}
+
+/* Footer */
+footer {
+  background-color: #003da5;
+  color: white;
+}
+.custom-section {
+  padding: 30px;
+}
+.custom-button {
+  background-color: #1a73e8;
+  border: none;
+}
+.custom-button:hover {
+  background-color: #0f5bb5;
+}
+.custom-link {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+.custom-link:hover {
+  color: #0f5bb5;
+}
+
